@@ -13,7 +13,7 @@
                 # Run the Main class
     #            CMD java HelloWorld
 
-FROM openjdk:24
+FROM amazoncorretto:latest
 WORKDIR /app
 COPY src/ /app/
 RUN javac *.java
