@@ -13,7 +13,7 @@
                 # Run the Main class
     #            CMD java HelloWorld
 
-FROM eclipse-temurin:23-jdk
+FROM openjdk:23
 WORKDIR /app
 COPY src/ /app/
 RUN javac *.java
